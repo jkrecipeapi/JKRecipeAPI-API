@@ -7,7 +7,7 @@ Hello for All Developers, this is API developed for Fetching data as food recipe
 
 ### base URL
 
-https://jkrecipeapi.vercel.app/api/
+[https://jkrecipeapi.vercel.app/api/](https://jkrecipeapi.vercel.app/api/)
 
 ### endPoints
 
@@ -17,7 +17,7 @@ https://jkrecipeapi.vercel.app/api/
 
 ### full API
 
-https://jkrecipeapi.vercel.app/api/alldata
+[https://jkrecipeapi.vercel.app/api/alldata](https://jkrecipeapi.vercel.app/api/alldata)
 
 
 ## How to use
@@ -39,7 +39,8 @@ https://jkrecipeapi.vercel.app/api/alldata
 
 ## Example Response
 
-`{
+```json
+{
   "Status": "Success",
   "Result": [
     {
@@ -85,11 +86,12 @@ https://jkrecipeapi.vercel.app/api/alldata
         "carbohydrates": "35g"
       },
       "createdAt": "2025-01-28T00:00:00.000Z"
-    },
-}`
+    }
+  ]
+}
+```
 
-or simly copy the exmple request and past in to address bar on the browser
-
+or simply copy the example request and paste it into the address bar on the browser
 
 ## Test on Postman
 
@@ -105,7 +107,7 @@ or simly copy the exmple request and past in to address bar on the browser
 ### v1.0.0-beta1
 
 - initial release of the API
-- only few data can fetch from this api
+- only few data can fetch from this API
 - no paid plans (free for all)
 - paid plans will add in future releases
 - release at: 31 January 2025
@@ -117,6 +119,5 @@ or simly copy the exmple request and past in to address bar on the browser
 - Authentication and API key support.
 - Advanced search and filtering options.
 - Paid plans with premium features.
-
 
 For more updates, stay tuned! 🚀
