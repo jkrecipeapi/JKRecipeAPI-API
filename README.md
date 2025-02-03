@@ -19,6 +19,7 @@ Hello for All Developers, this is API developed for Fetching data as food recipe
 
 [https://jkrecipeapi.vercel.app/api/alldata](https://jkrecipeapi.vercel.app/api/alldata)
 
+[https://jkrecipeapi.vercel.app/api/onerecipe/19](https://jkrecipeapi.vercel.app/api/onerecipe/19)
 
 ## How to use
 
@@ -95,12 +96,23 @@ or simply copy the example request and paste it into the address bar on the brow
 
 ## Test on Postman
 
+### get all data
 - Open Postman and create a new request.
 - Set the request type to **GET**.
 - Enter the API URL:
 `https://jkrecipeapi.vercel.app/api/alldata`
 - Click Send to fetch the recipes.
 - You should see a JSON response with the available recipes.
+
+### get by id Recipe
+- Open Postman and create a new request.
+- Set the request type to **GET**.
+- Enter the API URL:
+`https://jkrecipeapi.vercel.app/api/onerecipe/19`
+- Click Send to fetch the recipes.
+- You should see a JSON response with the Recipe id:19
+- You can Change upto id 19 (only 19 recipes).
+
 
 ## Versions
 
@@ -111,6 +123,16 @@ or simply copy the example request and paste it into the address bar on the brow
 - no paid plans (free for all)
 - paid plans will add in future releases
 - release at: 31 January 2025
+
+### v1.0.0-beta2
+
+- 2nd beta version of the APU
+- add get recipe by id - endpoint
+- only few data can fetch from this api (19 items)
+- no paid plans (free for all)
+- paid plans will add in future releases
+- release at: 03 February 2025
+
 
 
 ## Future Updates
